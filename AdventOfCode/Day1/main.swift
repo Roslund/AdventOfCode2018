@@ -14,7 +14,7 @@ var current = 0
 
 while true {
     for input in frequencyChanges {
-        current += input;
+        current += input
 
         if seenFrequencies.contains(current) {
             print(current)
