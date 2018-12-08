@@ -34,7 +34,7 @@ let edgePoints = (bounds.x.min ... bounds.x.max).flatMap { x in
 var pointCSA = Dictionary(uniqueKeysWithValues: coordinates.map({($0, 0)}))
 
 // Below we populate the pointCSA dictionary.
-points.forEach { point in
+for point in points {
     // Order all coordinated by distance to the point
     var ordered: [(coordinate: Point, distance: Int)] = coordinates
         .map { ($0, $0.distance(to: point)) }
@@ -42,7 +42,7 @@ points.forEach { point in
 
     // If there are more than two point at equal distance,
     // neither should count as beeing the cloosest.
-    if ordered[0].distance == ordered[1].distance { return }
+    if ordered[0].distance == ordered[1].distance { continue }
 
     let closest = ordered.first!.coordinate
     pointCSA[closest]? += 1
