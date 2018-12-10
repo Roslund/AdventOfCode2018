@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD0D26E621BD47AE008AB4F8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0D26E521BD47AE008AB4F8 /* main.swift */; };
-		AD0D26E821BD47C1008AB4F8 /* input.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0D26E721BD47C1008AB4F8 /* input.swift */; };
+		AD0D26EB21BE4201008AB4F8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0D26EA21BE4201008AB4F8 /* main.swift */; };
+		AD0D26ED21BE4214008AB4F8 /* input.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0D26EC21BE4214008AB4F8 /* input.swift */; };
+		AD0D26EF21BE4389008AB4F8 /* particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0D26EE21BE4389008AB4F8 /* particle.swift */; };
 		ADAA98AF21B71F630009ABB9 /* StringExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA98AE21B71F630009ABB9 /* StringExtentions.swift */; };
 		ADAA98B121B7260D0009ABB9 /* Tanspose.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA98B021B7260D0009ABB9 /* Tanspose.swift */; };
 		ADB201CC21BBDDB3008D3137 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB201CB21BBDDB3008D3137 /* Tree.swift */; };
@@ -32,6 +33,10 @@
 		AD0A48B321B94C9F00226107 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AD0D26E521BD47AE008AB4F8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AD0D26E721BD47C1008AB4F8 /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
+		AD0D26EA21BE4201008AB4F8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AD0D26EC21BE4214008AB4F8 /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
+		AD0D26EE21BE4389008AB4F8 /* particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = particle.swift; sourceTree = "<group>"; };
+		AD0D26F021BE6461008AB4F8 /* Day10.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day10.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AD3AA71E21B9A7B2003977C4 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		AD3AA72121BA39A3003977C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AD3AA72321BA39B0003977C4 /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
@@ -80,6 +85,17 @@
 				AD0D26E721BD47C1008AB4F8 /* input.swift */,
 			);
 			path = Day8;
+			sourceTree = "<group>";
+		};
+		AD0D26E921BE41EF008AB4F8 /* Day10 */ = {
+			isa = PBXGroup;
+			children = (
+				AD0D26F021BE6461008AB4F8 /* Day10.playground */,
+				AD0D26EA21BE4201008AB4F8 /* main.swift */,
+				AD0D26EC21BE4214008AB4F8 /* input.swift */,
+				AD0D26EE21BE4389008AB4F8 /* particle.swift */,
+			);
+			path = Day10;
 			sourceTree = "<group>";
 		};
 		AD3AA72021BA398F003977C4 /* Day7 */ = {
@@ -147,6 +163,7 @@
 				AD0A48B021B94B5700226107 /* Day6 */,
 				AD3AA72021BA398F003977C4 /* Day7 */,
 				AD0D26E421BD47A0008AB4F8 /* Day8 */,
+				AD0D26E921BE41EF008AB4F8 /* Day10 */,
 			);
 			path = AdventOfCode;
 			sourceTree = "<group>";
@@ -238,10 +255,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD0D26E821BD47C1008AB4F8 /* input.swift in Sources */,
+				AD0D26ED21BE4214008AB4F8 /* input.swift in Sources */,
 				ADB201CC21BBDDB3008D3137 /* Tree.swift in Sources */,
+				AD0D26EB21BE4201008AB4F8 /* main.swift in Sources */,
+				AD0D26EF21BE4389008AB4F8 /* particle.swift in Sources */,
 				ADAA98AF21B71F630009ABB9 /* StringExtentions.swift in Sources */,
-				AD0D26E621BD47AE008AB4F8 /* main.swift in Sources */,
 				ADAA98B121B7260D0009ABB9 /* Tanspose.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
