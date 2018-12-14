@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD19E82221C29864005701DB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD19E82121C29864005701DB /* main.swift */; };
+		AD19E82421C2986B005701DB /* input.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD19E82321C2986B005701DB /* input.swift */; };
+		AD19E82621C29930005701DB /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD19E82521C29930005701DB /* Track.swift */; };
+		AD19E82821C2F8D3005701DB /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD19E82721C2F8D3005701DB /* Cart.swift */; };
 		ADAA98AF21B71F630009ABB9 /* StringExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA98AE21B71F630009ABB9 /* StringExtentions.swift */; };
 		ADAA98B121B7260D0009ABB9 /* Tanspose.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA98B021B7260D0009ABB9 /* Tanspose.swift */; };
 		ADB201CC21BBDDB3008D3137 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB201CB21BBDDB3008D3137 /* Tree.swift */; };
-		ADBAA9F721C142BD0062437D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBAA9F621C142BD0062437D /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +38,10 @@
 		AD0D26EC21BE4214008AB4F8 /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
 		AD0D26EE21BE4389008AB4F8 /* particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = particle.swift; sourceTree = "<group>"; };
 		AD0D26F021BE6461008AB4F8 /* Day10.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day10.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AD19E82121C29864005701DB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AD19E82321C2986B005701DB /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
+		AD19E82521C29930005701DB /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		AD19E82721C2F8D3005701DB /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		AD3AA71E21B9A7B2003977C4 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		AD3AA72121BA39A3003977C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AD3AA72321BA39B0003977C4 /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
@@ -99,6 +106,17 @@
 				AD0D26EE21BE4389008AB4F8 /* particle.swift */,
 			);
 			path = Day10;
+			sourceTree = "<group>";
+		};
+		AD19E82021C29856005701DB /* Day13 */ = {
+			isa = PBXGroup;
+			children = (
+				AD19E82721C2F8D3005701DB /* Cart.swift */,
+				AD19E82521C29930005701DB /* Track.swift */,
+				AD19E82321C2986B005701DB /* input.swift */,
+				AD19E82121C29864005701DB /* main.swift */,
+			);
+			path = Day13;
 			sourceTree = "<group>";
 		};
 		AD3AA72021BA398F003977C4 /* Day7 */ = {
@@ -196,6 +214,7 @@
 				AD0D26E921BE41EF008AB4F8 /* Day10 */,
 				ADBAA9EE21C033F60062437D /* Day11 */,
 				ADBAA9F521C142AD0062437D /* Day12 */,
+				AD19E82021C29856005701DB /* Day13 */,
 			);
 			path = AdventOfCode;
 			sourceTree = "<group>";
@@ -288,9 +307,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADB201CC21BBDDB3008D3137 /* Tree.swift in Sources */,
-				ADBAA9F721C142BD0062437D /* main.swift in Sources */,
+				AD19E82221C29864005701DB /* main.swift in Sources */,
 				ADAA98AF21B71F630009ABB9 /* StringExtentions.swift in Sources */,
+				AD19E82821C2F8D3005701DB /* Cart.swift in Sources */,
+				AD19E82421C2986B005701DB /* input.swift in Sources */,
 				ADAA98B121B7260D0009ABB9 /* Tanspose.swift in Sources */,
+				AD19E82621C29930005701DB /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
