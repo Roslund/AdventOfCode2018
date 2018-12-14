@@ -31,3 +31,4 @@ for i in 10415 ... 10513 {
 // This is the state we should draw...
 print(min)
 
+//create a `CGContext`, draw into it and then call `makeImage` on the context to get a `CGImage`
