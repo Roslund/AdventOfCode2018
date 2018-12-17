@@ -1,4 +1,4 @@
-func solve(input: [Int: [String]]) -> [Int: String] {
+func backtrack(input: [Int: [String]]) -> [Int: String] {
     var input = input
     var out: [Int: String] = [:]
 
