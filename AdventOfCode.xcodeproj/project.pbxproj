@@ -15,7 +15,6 @@
 		AD763BAD21C6F79400B1B2B0 /* backtrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD763BAC21C6F79400B1B2B0 /* backtrack.swift */; };
 		AD763BAF21C6FB9300B1B2B0 /* programInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD763BAE21C6FB9300B1B2B0 /* programInput.swift */; };
 		ADAA98AF21B71F630009ABB9 /* StringExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA98AE21B71F630009ABB9 /* StringExtentions.swift */; };
-		ADAA98B121B7260D0009ABB9 /* Tanspose.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA98B021B7260D0009ABB9 /* Tanspose.swift */; };
 		ADB201CC21BBDDB3008D3137 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB201CB21BBDDB3008D3137 /* Tree.swift */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +100,7 @@
 		AD0D26E421BD47A0008AB4F8 /* Day8 */ = {
 			isa = PBXGroup;
 			children = (
+				ADB201CB21BBDDB3008D3137 /* Tree.swift */,
 				AD0D26E521BD47AE008AB4F8 /* main.swift */,
 				AD0D26E721BD47C1008AB4F8 /* input.swift */,
 			);
@@ -200,6 +200,7 @@
 		ADF738A521B64D7F00A1A56D /* Day4 */ = {
 			isa = PBXGroup;
 			children = (
+				ADAA98B021B7260D0009ABB9 /* Tanspose.swift */,
 				ADF738A821B64DA800A1A56D /* main.swift */,
 				ADF738A621B64D9F00A1A56D /* input.swift */,
 			);
@@ -257,8 +258,6 @@
 			isa = PBXGroup;
 			children = (
 				ADAA98AE21B71F630009ABB9 /* StringExtentions.swift */,
-				ADAA98B021B7260D0009ABB9 /* Tanspose.swift */,
-				ADB201CB21BBDDB3008D3137 /* Tree.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -340,7 +339,6 @@
 				AD763BA821C6A47300B1B2B0 /* Operations.swift in Sources */,
 				AD763BA221C658FA00B1B2B0 /* main.swift in Sources */,
 				ADAA98AF21B71F630009ABB9 /* StringExtentions.swift in Sources */,
-				ADAA98B121B7260D0009ABB9 /* Tanspose.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
