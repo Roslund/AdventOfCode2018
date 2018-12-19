@@ -39,6 +39,7 @@
 		AD37F85021CA6E30004FB09E /* StringExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtentions.swift; sourceTree = "<group>"; };
 		AD37F85A21CA6F3D004FB09E /* StringExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtentions.swift; sourceTree = "<group>"; };
 		AD37F87121CA700D004FB09E /* StringExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtentions.swift; sourceTree = "<group>"; };
+		AD37F87621CA71FA004FB09E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AD3AA71E21B9A7B2003977C4 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		AD3AA72121BA39A3003977C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AD3AA72321BA39B0003977C4 /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
@@ -223,6 +224,7 @@
 		ADFF3A4121B40386006B084A = {
 			isa = PBXGroup;
 			children = (
+				AD37F87621CA71FA004FB09E /* README.md */,
 				ADFF3A5621B403EC006B084A /* Day1 */,
 				ADFF3A5A21B40942006B084A /* Day2 */,
 				AD84BE3B21B50ECD00E68087 /* Day3 */,
