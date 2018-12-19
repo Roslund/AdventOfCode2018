@@ -1,11 +1,3 @@
-//
-//  main.swift
-//  AdventOfCode
-//
-//  Created by Anton Roslund on 2018-12-10.
-//  Copyright © 2018 Anton Roslund. All rights reserved.
-//
-
 import Foundation
 
 // Bara leta efter när skillnaden i y-led är minst
@@ -30,5 +22,3 @@ for i in 10415 ... 10513 {
 
 // This is the state we should draw...
 print(min)
-
-//create a `CGContext`, draw into it and then call `makeImage` on the context to get a `CGImage`

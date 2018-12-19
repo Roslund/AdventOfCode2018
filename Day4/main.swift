@@ -1,6 +1,5 @@
 import Foundation
 
-
 let lines = input.components(separatedBy: .newlines).sorted()
 let logs = lines.map { (line) -> (time: Int, entry: String) in
         (Int(line.string(in: 15...16))!, line.string(in: 19...))
@@ -20,7 +19,6 @@ func guardId(from entry: String) -> Int {
 // sleep shedulles, that is an array of 60 items, one
 // for each minute, 0 is awake, 1 is asleep.
 var guardSleep: [Int: [[Int]]] = [:]
-
 
 var guardid: Int?
 var fallsasleep = 0
