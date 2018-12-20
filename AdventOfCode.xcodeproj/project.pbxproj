@@ -6,6 +6,15 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AD37F87821CA932F004FB09E /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37F87721CA932F004FB09E /* Operations.swift */; };
+		AD37F87A21CA9363004FB09E /* ProgramExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37F87921CA9363004FB09E /* ProgramExecuter.swift */; };
+		AD37F87C21CA9382004FB09E /* input.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37F87B21CA9382004FB09E /* input.swift */; };
+		AD37F87E21CA94C9004FB09E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37F87D21CA94C9004FB09E /* main.swift */; };
+		AD37F88021CA9538004FB09E /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37F87F21CA9538004FB09E /* Instruction.swift */; };
+		AD37F88221CAC257004FB09E /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37F88121CAC257004FB09E /* Program.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		ADFF3A4821B40386006B084A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -40,6 +49,12 @@
 		AD37F85A21CA6F3D004FB09E /* StringExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtentions.swift; sourceTree = "<group>"; };
 		AD37F87121CA700D004FB09E /* StringExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtentions.swift; sourceTree = "<group>"; };
 		AD37F87621CA71FA004FB09E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AD37F87721CA932F004FB09E /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
+		AD37F87921CA9363004FB09E /* ProgramExecuter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramExecuter.swift; sourceTree = "<group>"; };
+		AD37F87B21CA9382004FB09E /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
+		AD37F87D21CA94C9004FB09E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AD37F87F21CA9538004FB09E /* Instruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
+		AD37F88121CAC257004FB09E /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
 		AD3AA71E21B9A7B2003977C4 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		AD3AA72121BA39A3003977C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AD3AA72321BA39B0003977C4 /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
@@ -136,6 +151,12 @@
 		AD37F84421CA6D54004FB09E /* Day19 */ = {
 			isa = PBXGroup;
 			children = (
+				AD37F87721CA932F004FB09E /* Operations.swift */,
+				AD37F87921CA9363004FB09E /* ProgramExecuter.swift */,
+				AD37F87B21CA9382004FB09E /* input.swift */,
+				AD37F87D21CA94C9004FB09E /* main.swift */,
+				AD37F87F21CA9538004FB09E /* Instruction.swift */,
+				AD37F88121CAC257004FB09E /* Program.swift */,
 			);
 			path = Day19;
 			sourceTree = "<group>";
@@ -330,6 +351,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD37F87821CA932F004FB09E /* Operations.swift in Sources */,
+				AD37F87C21CA9382004FB09E /* input.swift in Sources */,
+				AD37F88221CAC257004FB09E /* Program.swift in Sources */,
+				AD37F87E21CA94C9004FB09E /* main.swift in Sources */,
+				AD37F88021CA9538004FB09E /* Instruction.swift in Sources */,
+				AD37F87A21CA9363004FB09E /* ProgramExecuter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
