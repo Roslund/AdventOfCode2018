@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ADEB587E21CD43E600EC26F6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB587D21CD43E600EC26F6 /* main.swift */; };
-		ADEB588221CD4B1200EC26F6 /* input.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB588121CD4B1200EC26F6 /* input.swift */; };
-		ADEB588321CD4B2800EC26F6 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37F87721CA932F004FB09E /* Operations.swift */; };
-		ADEB588521CD4B2E00EC26F6 /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37F87F21CA9538004FB09E /* Instruction.swift */; };
-		ADEB588921CD7BE400EC26F6 /* ProgramExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB588821CD7BE400EC26F6 /* ProgramExecuter.swift */; };
+		AD50850021D0DAA000D3C96A /* Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5084FF21D0DAA000D3C96A /* Sphere.swift */; };
+		AD50850221D0DB0500D3C96A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50850121D0DB0500D3C96A /* main.swift */; };
+		AD50850A21D0FE0C00D3C96A /* input2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50850721D0F54B00D3C96A /* input2.swift */; };
 		ADEB588B21CE790300EC26F6 /* DoubbleLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB588A21CE790300EC26F6 /* DoubbleLinkedList.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +56,10 @@
 		AD3AA71E21B9A7B2003977C4 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		AD3AA72121BA39A3003977C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AD3AA72321BA39B0003977C4 /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
+		AD5084FD21D0DA9600D3C96A /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
+		AD5084FF21D0DAA000D3C96A /* Sphere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sphere.swift; sourceTree = "<group>"; };
+		AD50850121D0DB0500D3C96A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AD50850721D0F54B00D3C96A /* input2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input2.swift; sourceTree = "<group>"; };
 		AD763BA121C658FA00B1B2B0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AD763BA321C6594600B1B2B0 /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
 		AD763BA521C65E8300B1B2B0 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
@@ -175,6 +177,17 @@
 			path = Day7;
 			sourceTree = "<group>";
 		};
+		AD5084FB21D0DA7B00D3C96A /* Day23 */ = {
+			isa = PBXGroup;
+			children = (
+				AD5084FD21D0DA9600D3C96A /* input.swift */,
+				AD50850721D0F54B00D3C96A /* input2.swift */,
+				AD5084FF21D0DAA000D3C96A /* Sphere.swift */,
+				AD50850121D0DB0500D3C96A /* main.swift */,
+			);
+			path = Day23;
+			sourceTree = "<group>";
+		};
 		AD763BA021C658D400B1B2B0 /* Day16 */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +291,7 @@
 				AD339CB821C8E43E0060A8D1 /* Day18 */,
 				AD37F84421CA6D54004FB09E /* Day19 */,
 				ADEB587C21CD43AF00EC26F6 /* Day21 */,
+				AD5084FB21D0DA7B00D3C96A /* Day23 */,
 				ADFF3A4B21B40386006B084A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -367,12 +381,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADEB588321CD4B2800EC26F6 /* Operations.swift in Sources */,
-				ADEB588921CD7BE400EC26F6 /* ProgramExecuter.swift in Sources */,
-				ADEB588221CD4B1200EC26F6 /* input.swift in Sources */,
-				ADEB588521CD4B2E00EC26F6 /* Instruction.swift in Sources */,
+				AD50850021D0DAA000D3C96A /* Sphere.swift in Sources */,
+				AD50850A21D0FE0C00D3C96A /* input2.swift in Sources */,
+				AD50850221D0DB0500D3C96A /* main.swift in Sources */,
 				ADEB588B21CE790300EC26F6 /* DoubbleLinkedList.swift in Sources */,
-				ADEB587E21CD43E600EC26F6 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
